@@ -30,7 +30,7 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-light position-relative">
         <div class="container-fluid flex position-absolute top-100 start-50 translate-middle">
         <a class="navbar-brand" href="#">
-                <img src="{{ asset('img/favicon.png') }}"  class="img-fluid rounded mx-auto d-block" alt="..." width="40" height="40">
+                <img src="{{ asset('public/img/favicon.png') }}"  class="img-fluid rounded mx-auto d-block" alt="..." width="40" height="40">
                 ARwax
         </a>
             <!-- <a class="navbar-brand" href="#">Navbar</a> -->
