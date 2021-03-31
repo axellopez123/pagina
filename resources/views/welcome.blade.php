@@ -67,7 +67,7 @@
 
     </head>
     <body class="antialiased">
-    <div class="container mt-2">
+    <div class="container  mt-4 mx-auto">
     <div class="row align-items-start">
         <div class="row align-items-center">
             <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
