@@ -19,10 +19,6 @@
         </style>
 
         <style>
-            *{
-                margin: 0;
-                padding: 0;
-            }
 
             body {
                 font-family: 'Nunito', sans-serif;
@@ -32,7 +28,7 @@
 
 
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light py-4">
         <div class="container-fluid flex position-absolute top-100 start-50 translate-middle">
         <a class="navbar-brand" href="#">
                 <img src="{{ asset('public/img/favicon.png') }}"  class="img-fluid rounded mx-auto d-block" alt="..." width="40" height="40">
