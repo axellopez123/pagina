@@ -28,9 +28,9 @@
 
 
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light mt-2">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light py-2">
         <div class="container-fluid flex position-absolute translate-middle">
-        <a class="navbar-brand py-4" href="#">
+        <a class="navbar-brand" href="#">
                 <img src="{{ asset('public/img/favicon.png') }}"  class="img-fluid rounded mx-auto d-block" alt="..." width="40" height="40">
                 ARwax
         </a>
