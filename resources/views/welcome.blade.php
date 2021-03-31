@@ -32,7 +32,7 @@
 
 
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light position-relative">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid flex position-absolute top-100 start-50 translate-middle">
         <a class="navbar-brand" href="#">
                 <img src="{{ asset('public/img/favicon.png') }}"  class="img-fluid rounded mx-auto d-block" alt="..." width="40" height="40">
