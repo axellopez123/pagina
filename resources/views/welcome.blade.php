@@ -110,22 +110,20 @@
         </div>
     </div>
     <div class="row align-items-center">
-        <div>
-            <p class="fw-bolder text-center">SERVICIOS</p>
-        </div>
-            <div class="col">
-                <img src="{{ asset('public/img/web.jpg') }}" class="img-fluid" alt="...">
-                <p class="fw-bolder text-center">Paginas Web</p>
-            </div>
-            <div class="col">
-                <img src="{{ asset('public/img/app.jpg') }}" class="img-fluid" alt="...">
-                <p class="fw-bolder text-center">Apps</p>
-            </div>
-            <div class="col">
-                <img src="{{ asset('public/img/estadistica.jpg') }}" class="img-fluid" alt="...">
-                <p class="fw-bolder text-center d-inline-flex p-2 bd-highlight">Estadística Empresarial</p>
-            </div>
+    <div><p class="fw-bolder text-center">SERVICIOS</p></div>
+        <div class="col">
         
+        <img src="{{ asset('public/img/web.jpg') }}" class="img-fluid" alt="...">
+        <p class="fw-bolder text-center">Paginas Web</p>
+        </div>
+        <div class="col">
+        <img src="{{ asset('public/img/app.jpg') }}" class="img-fluid" alt="...">
+        <p class="fw-bolder text-center">Apps</p>
+        </div>
+        <div class="col">
+        <img src="{{ asset('public/img/estadistica.jpg') }}" class="img-fluid" alt="...">
+        <p class="fw-bolder text-center d-inline-flex p-2 bd-highlight">Estadística Empresarial</p>
+        </div>
     </div>
     <div class="row align-items-center">
     <div><p class="fw-bolder text-center">PROYECTOS</p></div>
