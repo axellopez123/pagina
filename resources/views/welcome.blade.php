@@ -28,8 +28,8 @@
 
 
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light py-2">
-        <div class="container-fluid flex position-absolute translate-middle">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light py-4">
+        <div class="container-fluid flex position-absolute top-100 start-50 translate-middle">
         <a class="navbar-brand" href="#">
                 <img src="{{ asset('public/img/favicon.png') }}"  class="img-fluid rounded mx-auto d-block" alt="..." width="40" height="40">
                 ARwax
@@ -67,7 +67,7 @@
 
     </head>
     <body class="antialiased">
-    <div class="container  mt-4 mx-auto">
+    <div class="container">
     <div class="row align-items-start">
         <div class="row align-items-center">
             <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
