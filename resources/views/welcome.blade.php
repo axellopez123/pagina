@@ -109,11 +109,11 @@
         </button>
         </div>
     </div>
-    <div class="row align-items-center ">
+    <div class="row align-items-center">
         <div>
             <p class="fw-bolder text-center">SERVICIOS</p>
         </div>
-        <div class="row top-0 start-50">
+        <div class="row align-items-center top-0 start-50">
             <div class="col">
                 <img src="{{ asset('public/img/web.jpg') }}" class="img-fluid" alt="...">
                 <p class="fw-bolder text-center">Paginas Web</p>
