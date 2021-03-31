@@ -35,7 +35,7 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-light position-relative">
         <div class="container-fluid flex position-absolute top-100 start-50 translate-middle">
         <a class="navbar-brand" href="#">
-                <img src="{{ asset('img/favicon.png') }}"  class="img-fluid rounded mx-auto d-block" alt="..." width="40" height="40">
+                <img src="{{ asset('public/img/favicon.png') }}"  class="img-fluid rounded mx-auto d-block" alt="..." width="40" height="40">
                 ARwax
         </a>
             <!-- <a class="navbar-brand" href="#">Navbar</a> -->
@@ -82,21 +82,21 @@
         </div>
         <div class="carousel-inner">
             <div class="carousel-item active" data-bs-interval="10000">
-            <img src="{{ asset('img/1.png') }}" class="d-block w-100" alt="...">
+            <img src="{{ asset('public/img/1.png') }}" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
                 <!-- <h5>First slide label</h5>
                 <p>Some representative placeholder content for the first slide.</p> -->
             </div>
             </div>
             <div class="carousel-item" data-bs-interval="2000">
-            <img src="{{ asset('img/2.png') }}" class="d-block w-100" alt="...">
+            <img src="{{ asset('public/img/2.png') }}" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
                 <!-- <h5>Second slide label</h5>
                 <p>Some representative placeholder content for the second slide.</p> -->
             </div>
             </div>
             <div class="carousel-item">
-            <img src="{{ asset('img/3.png') }}" class="d-block w-100" alt="...">
+            <img src="{{ asset('public/img/3.png') }}" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
                 <!-- <h5>Third slide label</h5>
                 <p>Some representative placeholder content for the third slide.</p> -->
