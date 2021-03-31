@@ -19,10 +19,14 @@
         </style>
 
         <style>
-        
+        .navbar {
+            margin-bottom: 0;
+            border-radius: 0;
+        }
             body {
                 font-family: 'Nunito', sans-serif;
             }
+            
         </style>
 
 
