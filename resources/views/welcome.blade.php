@@ -113,7 +113,6 @@
         <div>
             <p class="fw-bolder text-center">SERVICIOS</p>
         </div>
-        <div class="row align-items-center top-0 start-50">
             <div class="col">
                 <img src="{{ asset('public/img/web.jpg') }}" class="img-fluid" alt="...">
                 <p class="fw-bolder text-center">Paginas Web</p>
@@ -126,7 +125,7 @@
                 <img src="{{ asset('public/img/estadistica.jpg') }}" class="img-fluid" alt="...">
                 <p class="fw-bolder text-center d-inline-flex p-2 bd-highlight">Estadística Empresarial</p>
             </div>
-        </div>
+        
     </div>
     <div class="row align-items-center">
     <div><p class="fw-bolder text-center">PROYECTOS</p></div>
