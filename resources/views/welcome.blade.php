@@ -66,8 +66,8 @@
 
 
     </head>
-    <body class="antialiased py-4">
-    <div class="container">
+    <body class="antialiased">
+    <div class="container py-4">
     <div class="row align-items-start">
         <div class="row align-items-center">
             <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
