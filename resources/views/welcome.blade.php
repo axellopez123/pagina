@@ -19,9 +19,9 @@
         </style>
 
         <style>
-            .navbar {
-                margin-bottom: 0;
-                border-radius: 0;
+            *{
+                margin: 0;
+                padding: 0;
             }
 
             body {
