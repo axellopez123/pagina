@@ -113,7 +113,7 @@
         </button>
         </div>
     </div>
-    <div class="row align-items-center ">
+    <div class="row align-items-center">
     <div><p class="fw-bolder text-center">SERVICIOS</p></div>
         <div class="col">
         
