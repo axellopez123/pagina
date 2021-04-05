@@ -141,15 +141,15 @@
     <div class="row align-items-center">
     <div><p class="fw-bolder text-center">COLABORADORES</p></div>
         <div class="col">
-        <div><p class="fw-bolder text-center">Eduardo</p></div>
+        <div><p class="fw-bolder text-center">Eduardo Gonzalez</p></div>
+            <img src="{{ asset('public/img/tocayo.png') }}" class="img-fluid rounded-circle" alt="...">
+        </div>
+        <div class="col">
+        <div><p class="fw-bolder text-center">Axel López</p></div>
             <img src="{{ asset('public/img/axel.jpg') }}" class="img-fluid rounded-circle" alt="...">
         </div>
         <div class="col">
-        <div><p class="fw-bolder text-center">Axel</p></div>
-            <img src="{{ asset('public/img/axel.jpg') }}" class="img-fluid rounded-circle" alt="...">
-        </div>
-        <div class="col">
-        <div><p class="fw-bolder text-center">Omar</p></div>
+        <div><p class="fw-bolder text-center">Omar Carrillo</p></div>
             <img src="{{ asset('public/img/axel.jpg') }}" class="img-fluid rounded-circle" alt="...">
         </div>
     </div>
