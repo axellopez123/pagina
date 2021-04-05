@@ -160,15 +160,19 @@
         <div class="row justify-content-evenly">
             <div class="mb-3">
                 <label for="exampleFormControlInput1" class="form-label">Nombre</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Juan Pérez">
+                <input name="name" class="form-control" id="exampleFormControlInput1" placeholder="Juan Pérez">
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+                <input name="phone" class="form-control" id="exampleFormControlInput1" placeholder="12345678">
             </div>
             <div class="mb-3">
                 <label for="exampleFormControlInput1" class="form-label">Email</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                <input name="email" type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
             </div>
             <div class="mb-3">
                 <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                <textarea name="message" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
             </div>
             <div class="col-auto">
                 <button type="submit" class="btn btn-primary mb-3">Enviar</button>

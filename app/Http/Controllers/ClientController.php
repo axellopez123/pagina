@@ -34,9 +34,10 @@ class ClientController extends Controller
         $user->save();
         // event(new Registered($user));
 
-        return response()->json([
-            'status_code' => 200,
-            'message' => 'Nos pondremos en contacto lo más pronto posible!'
-        ]);
+        return view('welcome', ['name' => $user->name]);
+        // return response()->json([
+        //     'status_code' => 200,
+        //     'message' => 'Nos pondremos en contacto lo más pronto posible!'
+        // ]);
     }
 }

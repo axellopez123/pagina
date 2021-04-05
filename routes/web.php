@@ -20,3 +20,14 @@ Route::get('/', function () {
 
 
 Route::view('/contact', 'contact', ['name' => 'Taylor']);
+// Route::get('/send-email', function(){
+//     $details = [
+//         'title' => 'Mail from ARwax',
+//         'body' => 'This is the testing body'
+//     ];
+
+//     \Mail::to('thom@arwax.net')->send(new \App\Media\msgSent($details));
+    
+// });
+
+Route::get('search', 'MessageController@index');
