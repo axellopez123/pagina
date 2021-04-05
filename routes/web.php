@@ -18,4 +18,5 @@ Route::get('/', function () {
 });
 
 
+
 Route::view('/contact', 'contact', ['name' => 'Taylor']);
