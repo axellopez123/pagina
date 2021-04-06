@@ -70,7 +70,7 @@
     <div class="container">
     <div class="row align-items-start">
         <div class="row align-items-center">
-      
+    <div class="position-relative top-0 start-50 translate-middle">  
     <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false" data-bs-interval="false">
         <div class="carousel-inner">
             <div class="carousel-item active">
@@ -91,6 +91,7 @@
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
         </button>
+    </div>
     </div>
     </div>
     <div class="row align-items-center">
@@ -151,7 +152,7 @@
      <div>
      <p class="fw-bolder text-center">CONTACTO</p>
      </div>
-     <div class="position-absolute top-0 start-50 translate-middle">
+     <div class="position-relative top-0 start-50 translate-middle">
      <a href="http://wa.me/3324398516?text=Me%20interesa%20un%20servicio%20web">
      <button type="button" class="btn btn-success">Whastapp</button>
      </a>
