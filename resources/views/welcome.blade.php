@@ -35,10 +35,10 @@
                 ARwax
         </a>
             <!-- <a class="navbar-brand" href="#">Navbar</a> -->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            </button> -->
+            <!-- <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav">
                 <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
@@ -60,7 +60,7 @@
                         </ul>
                         </li>
                     </ul>
-                </div>
+                </div> -->
             </div>
         </nav> 
 
@@ -91,7 +91,7 @@
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
         </button>
-</div>
+    </div>
     </div>
     <div class="row align-items-center">
     <div><p class="fw-bolder text-center">SERVICIOS</p></div>
@@ -140,6 +140,14 @@
   <div class="row align-items-end">
      <div>
      <p class="fw-bolder text-center">CONTACTO</p>
+     </div>
+     <div>
+     <a href="http://wa.me/3324398516?text=Me%20interesa%20un%20servicio%20web">
+     <button type="button" class="btn btn-success">Whastapp</button>
+     </a>
+     <a href="https://www.facebook.com/ARwax-Inc-332543787399055">
+     <button type="button" class="btn btn-primary">Facebook</button>
+     </a>
      </div>
         <form action="{{route('client.sendMessage')}}" method="POST">
         <div class="row justify-content-evenly">
