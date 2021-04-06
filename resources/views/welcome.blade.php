@@ -131,7 +131,7 @@
      </div>
      </br>
      <div class="position-relative top-0 start-50 translate-middle">
-     <a href="http://wa.me/3324398516?text=Me%20interesa%20un%20servicio%20web">
+     <a href="https://wa.me/message/YMEFEAE2MA5GM1">
      <button type="button" class="btn btn-success">Whastapp</button>
      </a>
      <a href="https://www.facebook.com/ARwax-Inc-332543787399055">
