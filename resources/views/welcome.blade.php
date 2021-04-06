@@ -109,7 +109,7 @@
         <p class="fw-bolder text-center d-inline-flex p-2 bd-highlight">Estadística Empresarial</p>
         </div>
     </div>
-    <div class="row align-items-center">
+    <!-- <div class="row align-items-center">
     <div><p class="fw-bolder text-center">PROYECTOS</p></div>
 
         <div class="col">
@@ -121,24 +121,34 @@
         <div class="col">
         Proyecto 3
         </div>
-    </div>
+    </div> -->
     <div class="row align-items-center">
-    <div><p class="fw-bolder text-center">COLABORADORES</p></div>
+    <div>
+        <p class="fw-bolder text-center">COLABORADORES</p></div>
         <div class="col">
-        <div><p class="fw-bolder text-center">Eduardo Gonzalez</p></div>
+        <div>
+            <p class="fw-bolder text-center">Eduardo Gonzalez</p>
+            <p class="fw-bolder text-center">Full-Stack</p>
+            </div>
             <img src="{{ asset('public/img/tocayo.PNG') }}" class="img-fluid rounded-circle colla" alt="...">
         </div>
         <div class="col">
-        <div><p class="fw-bolder text-center">Axel López</p></div>
+        <div>
+            <p class="fw-bolder text-center">Axel López</p>
+            <p class="fw-bolder text-center">Back-End</p>
+        </div>
             <img src="{{ asset('public/img/axel.jpg') }}" class="img-fluid rounded-circle colla" alt="...">
         </div>
         <div class="col">
-        <div><p class="fw-bolder text-center">Omar Carrillo</p></div>
+        <div>
+            <p class="fw-bolder text-center">Omar Carrillo</p>
+            <p class="fw-bolder text-center">Front-End</p>
+        </div>
             <img src="{{ asset('public/img/fri.jpg') }}" class="img-fluid rounded-circle colla" alt="...">
         </div>
     </div>
   <div class="row align-items-end">
-     <div>
+     <div class="position-absolute top-0 start-50 translate-middle">
      <p class="fw-bolder text-center">CONTACTO</p>
      </div>
      <div>
