@@ -70,7 +70,7 @@
     <div class="container">
     <div class="row align-items-start">
         <div class="row align-items-center">
-    <div class="position-relative top-0 start-50 translate-middle">  
+    <div class="position-absolute top-100 start-50 translate-middle">  
     <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false" data-bs-interval="false">
         <div class="carousel-inner">
             <div class="carousel-item active">
