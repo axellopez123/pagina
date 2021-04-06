@@ -148,10 +148,10 @@
         </div>
     </div>
   <div class="row align-items-end">
-     <div class="position-absolute top-0 start-50 translate-middle">
+     <div>
      <p class="fw-bolder text-center">CONTACTO</p>
      </div>
-     <div>
+     <div class="position-absolute top-0 start-50 translate-middle">
      <a href="http://wa.me/3324398516?text=Me%20interesa%20un%20servicio%20web">
      <button type="button" class="btn btn-success">Whastapp</button>
      </a>
