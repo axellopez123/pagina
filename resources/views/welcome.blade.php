@@ -32,7 +32,7 @@
         <div class="container-fluid flex position-absolute top-100 start-50 translate-middle">
         <a class="navbar-brand" href="#">
                 <img src="{{ asset('public/img/favicon.png') }}"  class="img-fluid rounded mx-auto d-block" alt="..." width="40" height="40">
-                ARwax
+                <p class="fw-bolder text-center">Arwax</p>
         </a>
             <!-- <a class="navbar-brand" href="#">Navbar</a> -->
             <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
