@@ -128,6 +128,9 @@
     </br>
     </br>
   <div class="row align-items-end">
+     <div>
+     <p class="fw-bolder text-center">CONTACTO</p>
+     </div>
      </br>
      </br>
      <div class="position-relative top-0 start-50 translate-middle">
@@ -140,9 +143,6 @@
      <a href="https://www.instagram.com/arwax_inc/">
      <button type="button" class="btn btn-orange">Instagram</button>
      </a>
-     <div>
-     <p class="fw-bolder text-center">CONTACTO</p>
-     </div>
      </div>
         <form action="{{route('client.sendMessage')}}" method="POST">
         <div class="row justify-content-evenly">
