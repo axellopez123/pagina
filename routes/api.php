@@ -20,4 +20,4 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-Route::post('/message',[ClientController::class,'sendMessage']);
+Route::post('/message',[ClientController::class,'sendMessage'])->name('client.sendMessage');

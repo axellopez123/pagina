@@ -78,7 +78,7 @@
         </div>
         <div class="carousel-inner">
             <div class="carousel-item active" data-bs-interval="10000">
-            <img src="{{ asset('public/img/1.png') }}" class="d-block" style="width: 100px; height:100px;" alt="...">
+            <img src="{{ asset('public/img/1.png') }}" class="d-block" alt="...">
             <div class="carousel-caption d-none d-md-block">
                 <!-- <h5>First slide label</h5>
                 <p>Some representative placeholder content for the first slide.</p> -->
@@ -142,7 +142,8 @@
     <div><p class="fw-bolder text-center">COLABORADORES</p></div>
         <div class="col">
         <div><p class="fw-bolder text-center">Eduardo Gonzalez</p></div>
-            <img src="{{ asset('public/img/tocayo.PNG') }}" class="img-fluid rounded-circle" alt="...">
+            <img src="{{ asset('public/img/tocayo.PNG
+            ') }}" class="img-fluid rounded-circle" alt="...">
         </div>
         <div class="col">
         <div><p class="fw-bolder text-center">Axel López</p></div>
@@ -157,6 +158,7 @@
      <div>
      <p class="fw-bolder text-center">CONTACTO</p>
      </div>
+        <form action="{{route('client.sendMessage')}}" method="POST">
         <div class="row justify-content-evenly">
             <div class="mb-3">
                 <label for="exampleFormControlInput1" class="form-label">Nombre</label>
@@ -178,6 +180,7 @@
                 <button type="submit" class="btn btn-primary mb-3">Enviar</button>
             </div>
         </div>
+    </form>
   </div>
     </body>
 </html>
