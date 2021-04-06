@@ -127,10 +127,11 @@
     </div>
     </br>
     </br>
-  <div class="row align-items-end">
-     <div>
+    <div>
      <p class="fw-bolder text-center">CONTACTO</p>
      </div>
+  <div class="row align-items-end">
+     
      </br>
      </br>
      <div class="position-relative top-0 start-50 translate-middle">
