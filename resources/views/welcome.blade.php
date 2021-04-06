@@ -28,41 +28,14 @@
 
 
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light py-4">
-        <div class="container-fluid flex position-absolute top-100 start-50 translate-middle">
-        <a class="navbar-brand" href="#">
-                <img src="{{ asset('public/img/favicon.png') }}"  class="img-fluid rounded mx-auto d-block" alt="..." width="40" height="40">
-                <p class="fw-bolder text-center">Arwax</p>
-        </a>
-            <!-- <a class="navbar-brand" href="#">Navbar</a> -->
-            <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button> -->
-            <!-- <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" href="#">Productos</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" href="#">Servicios</a>
-                </li>
-                <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Contacto
-                </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <li><a class="dropdown-item" href="#">Whatsapp</a></li>
-                            <li><a class="dropdown-item" href="#">Facebook</a></li>
-                            <li><a class="dropdown-item" href="#">Email</a></li>
-                        </ul>
-                        </li>
-                    </ul>
-                </div> -->
-            </div>
-        </nav> 
+        <nav class="navbar navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+      <img src="{{asset('public/img/favicon.png')}}" alt="" width="30" height="24" class="d-inline-block align-text-top">
+      Arwax
+    </a>
+  </div>
+</nav>
 
 
     </head>
