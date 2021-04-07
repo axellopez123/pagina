@@ -134,7 +134,7 @@
      
      </br>
      </br>
-     <div class="position-relative top-0 start-50 translate-middle">
+     <!-- <div class="position-relative top-0 start-50 translate-middle">
      <a href="https://wa.me/message/YMEFEAE2MA5GM1">
      <button type="button" class="btn btn-success">Whastapp</button>
      </a>
@@ -144,7 +144,7 @@
      <a href="https://www.instagram.com/arwax_inc/">
      <button type="button" class="btn btn-orange">Instagram</button>
      </a>
-     </div>
+     </div> -->
         <form action="{{route('client.sendMessage')}}" method="POST">
         <div class="row justify-content-evenly">
             <div class="mb-3">
