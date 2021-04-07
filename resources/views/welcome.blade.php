@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>rwax</title>
+        <title>Arwax</title>
 
         <!-- Icono -->
         <link rel="shortcut icon" href="{{asset('public/img/logo.ico')}}" />
@@ -34,7 +34,7 @@
   <div class="container-fluid">
     <a class="navbar-brand" href="#">
       <img src="{{asset('public/img/logo.png')}}" alt="" width="40" height="40" class="d-inline-block align-text-top">
-      Arwax
+      rwax
     </a>
   </div>
 </nav>
