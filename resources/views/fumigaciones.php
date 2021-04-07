@@ -33,8 +33,8 @@
         <nav class="navbar navbar-light bg-light">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">
-      <img src="{{asset('public/img/logo.png')}}" alt="" width="40" height="40" class="d-inline-block align-text-top">
-      Arwax
+      <!-- <img src="{{asset('public/img/logo.png')}}" alt="" width="40" height="40" class="d-inline-block align-text-top"> -->
+      Inglesa
     </a>
   </div>
 </nav>
@@ -49,13 +49,13 @@
     <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false" data-bs-interval="false">
         <div class="carousel-inner">
             <div class="carousel-item active">
-            <img src="{{ asset('public/img/1.png') }}" class="d-block w-100" alt="...">
+            <img src="{{ asset('public/img/1.jpeg') }}" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
-            <img src="{{ asset('public/img/2.png') }}" class="d-block w-100" alt="...">
+            <img src="{{ asset('public/img/2.jpeg') }}" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
-            <img src="{{ asset('public/img/3.png') }}" class="d-block w-100" alt="...">
+            <img src="{{ asset('public/img/3.jpeg') }}" class="d-block w-100" alt="...">
             </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
@@ -73,16 +73,16 @@
     <div><p class="fw-bolder text-center">SERVICIOS</p></div>
         <div class="col">
         
-        <img src="{{ asset('public/img/web.jpg') }}" class="img-fluid" width="140" height="140" alt="...">
-        <p class="fw-bolder text-center">Paginas Web</p>
+        <img src="{{ asset('public/img/web.jpg') }}" class="img-fluid" width="240" height="240" alt="...">
+        <p class="fw-bolder text-center">Depa o Duplex</p>
         </div>
         <div class="col">
-        <img src="{{ asset('public/img/app.jpg') }}" class="img-fluid" width="140" height="140"alt="...">
-        <p class="fw-bolder text-center">Apps</p>
+        <img src="{{ asset('public/img/app.jpg') }}" class="img-fluid" width="240" height="240"alt="...">
+        <p class="fw-bolder text-center">Casa 3 habitaciones</p>
         </div>
         <div class="col">
-        <img src="{{ asset('public/img/estadistica.jpg') }}" class="img-fluid" width="140" height="140"alt="...">
-        <p class="fw-bolder text-center d-inline-flex p-2 bd-highlight">Estadística Empresarial</p>
+        <img src="{{ asset('public/img/estadistica.jpeg') }}" class="img-fluid" width="240" height="240"alt="...">
+        <p class="fw-bolder text-center d-inline-flex p-2 bd-highlight">Casa 5 habitaciones</p>
         </div>
     </div>
     <!-- <div class="row align-items-center">
@@ -100,29 +100,29 @@
     </div> -->
     <div class="row align-items-center">
     <div>
-        <p class="fw-bolder text-center">COLABORADORES</p></div></br>
+        <p class="fw-bolder text-center">BENEFICIOS</p></div></br>
         <div class="col">
         <div>
-            <p class="fw-bolder text-center">Eduardo Gonzalez</p>
-            <p class="fw-bolder text-center">Full-Stack</p>
+            <p class="fw-bolder text-center">Piretrinas Naturales</p>
+            <p class="fw-bolder text-center">Efecto 10 veces mas potencial que otros insecticidas</p>
             </div>
-            <img src="{{ asset('public/img/tocayo.PNG') }}" class="img-fluid rounded-circle colla" alt="...">
+            <img src="{{ asset('public/img/tocayo.png') }}" class="img-fluid rounded-circle colla" alt="...">
         </div>
         </br>
         <div class="col">
         <div>
-            <p class="fw-bolder text-center">Axel López</p>
-            <p class="fw-bolder text-center">Back-End</p>
+            <p class="fw-bolder text-center">Duracion</p>
+            <p class="fw-bolder text-center">Semanas de efecto despues de la aplicación</p>
         </div>
-            <img src="{{ asset('public/img/axel.jpg') }}" class="img-fluid rounded-circle colla" alt="...">
+            <img src="{{ asset('public/img/axel.png') }}" class="img-fluid rounded-circle colla" alt="...">
         </div>
         </br>
         <div class="col">
         <div>
-            <p class="fw-bolder text-center">Omar Carrillo</p>
-            <p class="fw-bolder text-center">Front-End</p>
+            <p class="fw-bolder text-center">Eliminacion de varias plagas</p>
+            <p class="fw-bolder text-center">Insectos, cucarachas, alacranes</p>
         </div>
-            <img src="{{ asset('public/img/fri.jpg') }}" class="img-fluid rounded-circle colla" alt="...">
+            <img src="{{ asset('public/img/fri.png') }}" class="img-fluid rounded-circle colla" alt="...">
         </div>
     </div>
     </br>
@@ -134,7 +134,7 @@
      
      </br>
      </br>
-     <div class="position-relative top-0 start-50 translate-middle">
+     <!-- <div class="position-relative top-0 start-50 translate-middle">
      <a href="https://wa.me/message/YMEFEAE2MA5GM1">
      <button type="button" class="btn btn-success">Whastapp</button>
      </a>
@@ -144,7 +144,7 @@
      <a href="https://www.instagram.com/arwax_inc/">
      <button type="button" class="btn btn-orange">Instagram</button>
      </a>
-     </div>
+     </div> -->
         <form action="{{route('client.sendMessage')}}" method="POST">
         <div class="row justify-content-evenly">
             <div class="mb-3">
