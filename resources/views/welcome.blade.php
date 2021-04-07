@@ -73,15 +73,15 @@
     <div><p class="fw-bolder text-center">SERVICIOS</p></div>
         <div class="col">
         
-        <img src="{{ asset('public/img/web.jpg') }}" class="img-fluid" width="140" height="140" alt="...">
+        <img src="{{ asset('public/img/web.jpg') }}" class="img-fluid" width="240" height="240" alt="...">
         <p class="fw-bolder text-center">Depa o Duplex</p>
         </div>
         <div class="col">
-        <img src="{{ asset('public/img/app.jpg') }}" class="img-fluid" width="140" height="140"alt="...">
+        <img src="{{ asset('public/img/app.jpg') }}" class="img-fluid" width="240" height="240"alt="...">
         <p class="fw-bolder text-center">Casa 3 habitaciones</p>
         </div>
         <div class="col">
-        <img src="{{ asset('public/img/estadistica.jpeg') }}" class="img-fluid" width="140" height="140"alt="...">
+        <img src="{{ asset('public/img/estadistica.jpeg') }}" class="img-fluid" width="240" height="240"alt="...">
         <p class="fw-bolder text-center d-inline-flex p-2 bd-highlight">Casa 5 habitaciones</p>
         </div>
     </div>
@@ -100,29 +100,29 @@
     </div> -->
     <div class="row align-items-center">
     <div>
-        <p class="fw-bolder text-center">COLABORADORES</p></div></br>
+        <p class="fw-bolder text-center">BENEFICIOS</p></div></br>
         <div class="col">
         <div>
-            <p class="fw-bolder text-center">Eduardo Gonzalez</p>
-            <p class="fw-bolder text-center">Full-Stack</p>
+            <p class="fw-bolder text-center">Piretrinas Naturales</p>
+            <p class="fw-bolder text-center">Efecto 10 veces mas potencial que otros insecticidas</p>
             </div>
-            <img src="{{ asset('public/img/tocayo.PNG') }}" class="img-fluid rounded-circle colla" alt="...">
+            <img src="{{ asset('public/img/tocayo.png') }}" class="img-fluid rounded-circle colla" alt="...">
         </div>
         </br>
         <div class="col">
         <div>
-            <p class="fw-bolder text-center">Axel López</p>
-            <p class="fw-bolder text-center">Back-End</p>
+            <p class="fw-bolder text-center">Duracion</p>
+            <p class="fw-bolder text-center">Semanas de efecto despues de la aplicación</p>
         </div>
-            <img src="{{ asset('public/img/axel.jpg') }}" class="img-fluid rounded-circle colla" alt="...">
+            <img src="{{ asset('public/img/axel.png') }}" class="img-fluid rounded-circle colla" alt="...">
         </div>
         </br>
         <div class="col">
         <div>
-            <p class="fw-bolder text-center">Omar Carrillo</p>
-            <p class="fw-bolder text-center">Front-End</p>
+            <p class="fw-bolder text-center">Eliminacion de varias plagas</p>
+            <p class="fw-bolder text-center">Insectos, cucarachas, alacranes</p>
         </div>
-            <img src="{{ asset('public/img/fri.jpg') }}" class="img-fluid rounded-circle colla" alt="...">
+            <img src="{{ asset('public/img/fri.png') }}" class="img-fluid rounded-circle colla" alt="...">
         </div>
     </div>
     </br>
