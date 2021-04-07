@@ -33,8 +33,8 @@
         <nav class="navbar navbar-light bg-light">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">
-      <img src="{{asset('public/img/logo.png')}}" alt="" width="40" height="40" class="d-inline-block align-text-top">
-      Arwax
+      <!-- <img src="{{asset('public/img/logo.png')}}" alt="" width="40" height="40" class="d-inline-block align-text-top"> -->
+      Inglesa
     </a>
   </div>
 </nav>
@@ -49,13 +49,13 @@
     <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false" data-bs-interval="false">
         <div class="carousel-inner">
             <div class="carousel-item active">
-            <img src="{{ asset('public/img/1.png') }}" class="d-block w-100" alt="...">
+            <img src="{{ asset('public/img/1.jpeg') }}" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
-            <img src="{{ asset('public/img/2.png') }}" class="d-block w-100" alt="...">
+            <img src="{{ asset('public/img/2.jpeg') }}" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
-            <img src="{{ asset('public/img/3.png') }}" class="d-block w-100" alt="...">
+            <img src="{{ asset('public/img/3.jpeg') }}" class="d-block w-100" alt="...">
             </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
@@ -74,15 +74,15 @@
         <div class="col">
         
         <img src="{{ asset('public/img/web.jpg') }}" class="img-fluid" width="140" height="140" alt="...">
-        <p class="fw-bolder text-center">Paginas Web</p>
+        <p class="fw-bolder text-center">Depa o Duplex</p>
         </div>
         <div class="col">
         <img src="{{ asset('public/img/app.jpg') }}" class="img-fluid" width="140" height="140"alt="...">
-        <p class="fw-bolder text-center">Apps</p>
+        <p class="fw-bolder text-center">Casa 3 habitaciones</p>
         </div>
         <div class="col">
-        <img src="{{ asset('public/img/estadistica.jpg') }}" class="img-fluid" width="140" height="140"alt="...">
-        <p class="fw-bolder text-center d-inline-flex p-2 bd-highlight">Estadística Empresarial</p>
+        <img src="{{ asset('public/img/estadistica.jpeg') }}" class="img-fluid" width="140" height="140"alt="...">
+        <p class="fw-bolder text-center d-inline-flex p-2 bd-highlight">Casa 5 habitaciones</p>
         </div>
     </div>
     <!-- <div class="row align-items-center">
