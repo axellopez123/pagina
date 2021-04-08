@@ -73,9 +73,10 @@
         <div class="row align-items-center">
         <div><p class="fw-bolder text-center">SERVICIOS</p></div>
             <div class="col-sm col-md col-lg">
-            
-            <img src="{{ asset('public/img/web.jpg') }}" class="img-fluid" width="140" height="140" alt="...">
-            <p class="fw-bolder text-center">Paginas Web</p>
+                <center>
+                <img src="{{ asset('public/img/web.jpg') }}" class="img-fluid" width="140" height="140" alt="...">
+                <p class="fw-bolder text-center">Paginas Web</p>
+                </center>
             </div>
             <div class="col-sm col-md col-lg">
             <img src="{{ asset('public/img/app.jpg') }}" class="img-fluid" width="140" height="140"alt="...">
