@@ -10,7 +10,8 @@
         <link rel="shortcut icon" href="{{asset('public/img/logo.ico')}}" />
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
-        
+        <!-- SIZING -->
+        <link rel="stylesheet" href="{{ asset('public/css/size.css') }}">
         <!-- Bootsrap -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
@@ -31,13 +32,13 @@
 
 
         <nav class="navbar navbar-light bg-light">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">
-      <img src="{{asset('public/img/logo.png')}}" alt="" width="40" height="40" class="d-inline-block align-text-top">
-      rwax
-    </a>
-  </div>
-</nav>
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="{{asset('public/img/logo.png')}}" alt="" width="40" height="40" class="d-inline-block align-text-top">
+                    rwax
+                </a>
+            </div>
+        </nav>
 
 
     </head>
@@ -45,44 +46,45 @@
     <div class="container">
     <div class="row align-items-start">
         <div class="row align-items-center">
-    <div>  
-    <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false" data-bs-interval="false">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-            <img src="{{ asset('public/img/1.png') }}" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-            <img src="{{ asset('public/img/2.png') }}" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-            <img src="{{ asset('public/img/3.png') }}" class="d-block w-100" alt="...">
+            <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false" data-bs-interval="false">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                    <img src="{{ asset('public/img/1.png') }}" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                    <img src="{{ asset('public/img/2.png') }}" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                    <img src="{{ asset('public/img/3.png') }}" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
     </div>
-    </div>
-    </div>
-    <div class="row align-items-center">
-    <div><p class="fw-bolder text-center">SERVICIOS</p></div>
-        <div class="col">
-        
-        <img src="{{ asset('public/img/web.jpg') }}" class="img-fluid" width="140" height="140" alt="...">
-        <p class="fw-bolder text-center">Paginas Web</p>
-        </div>
-        <div class="col">
-        <img src="{{ asset('public/img/app.jpg') }}" class="img-fluid" width="140" height="140"alt="...">
-        <p class="fw-bolder text-center">Apps</p>
-        </div>
-        <div class="col">
-        <img src="{{ asset('public/img/estadistica.jpg') }}" class="img-fluid" width="140" height="140"alt="...">
-        <p class="fw-bolder text-center d-inline-flex p-2 bd-highlight">Estadística Empresarial</p>
+    <div class="container">
+        <div class="row align-items-center">
+        <div><p class="fw-bolder text-center">SERVICIOS</p></div>
+            <div class="col">
+            
+            <img src="{{ asset('public/img/web.jpg') }}" class="img-fluid" width="140" height="140" alt="...">
+            <p class="fw-bolder text-center">Paginas Web</p>
+            </div>
+            <div class="col">
+            <img src="{{ asset('public/img/app.jpg') }}" class="img-fluid" width="140" height="140"alt="...">
+            <p class="fw-bolder text-center">Apps</p>
+            </div>
+            <div class="col">
+            <img src="{{ asset('public/img/estadistica.jpg') }}" class="img-fluid" width="140" height="140"alt="...">
+            <p class="fw-bolder text-center d-inline-flex p-2 bd-highlight">Estadística Empresarial</p>
+            </div>
         </div>
     </div>
     <!-- <div class="row align-items-center">
@@ -98,76 +100,79 @@
         Proyecto 3
         </div>
     </div> -->
+    <div class="container">
     <div class="row align-items-center">
-    <div>
-        <p class="fw-bolder text-center">COLABORADORES</p></div></br>
-        <div class="col">
-        <div>
-            <p class="fw-bolder text-center">Eduardo Gonzalez</p>
-            <p class="fw-bolder text-center">Full-Stack</p>
+            <div><p class="fw-bolder text-center">COLABORADORES</p></div>
+            
+            <div class="col">
+                <div>
+                    <p class="fw-bolder text-center">Eduardo Gonzalez</p>
+                    <p class="fw-bolder text-center">Full-Stack</p>
+                </div>
+                <img src="{{ asset('public/img/tocayo.PNG') }}" class="img-fluid rounded-circle colla" alt="...">
             </div>
-            <img src="{{ asset('public/img/tocayo.PNG') }}" class="img-fluid rounded-circle colla" alt="...">
-        </div>
-        </br>
-        <div class="col">
-        <div>
-            <p class="fw-bolder text-center">Axel López</p>
-            <p class="fw-bolder text-center">Back-End</p>
-        </div>
-            <img src="{{ asset('public/img/axel.jpg') }}" class="img-fluid rounded-circle colla" alt="...">
-        </div>
-        </br>
-        <div class="col">
-        <div>
-            <p class="fw-bolder text-center">Omar Carrillo</p>
-            <p class="fw-bolder text-center">Front-End</p>
-        </div>
-            <img src="{{ asset('public/img/fri.jpg') }}" class="img-fluid rounded-circle colla" alt="...">
-        </div>
+            </br>
+            <div class="col">
+                <div>
+                    <p class="fw-bolder text-center">Axel López</p>
+                    <p class="fw-bolder text-center">Back-End</p>
+                </div>
+                <img src="{{ asset('public/img/axel.jpg') }}" class="img-fluid rounded-circle colla" alt="...">
+            </div>
+            </br>
+            <div class="col">
+                <div>
+                    <p class="fw-bolder text-center">Omar Carrillo</p>
+                    <p class="fw-bolder text-center">Front-End</p>
+                </div>
+                <img src="{{ asset('public/img/fri.jpg') }}" class="img-fluid rounded-circle colla" alt="...">
+            </div> 
     </div>
     </br>
     </br>
     <div>
      <p class="fw-bolder text-center">CONTACTO</p>
      </div>
-  <div class="row align-items-end">
+    <div class="container">
+        <div class="row align-items-end">
      
-     </br>
-     </br>
-     <div class="position-relative top-0 start-50 translate-middle">
-     <a href="https://wa.me/message/YMEFEAE2MA5GM1">
-     <button type="button" class="btn btn-success">Whastapp</button>
-     </a>
-     <a href="https://www.facebook.com/ARwax-Inc-332543787399055">
-     <button type="button" class="btn btn-primary">Facebook</button>
-     </a>
-     <a href="https://www.instagram.com/arwax_inc/">
-     <button type="button" class="btn btn-orange">Instagram</button>
-     </a>
-     </div>
-        <form action="{{route('client.sendMessage')}}" method="POST">
-        <div class="row justify-content-evenly">
-            <div class="mb-3">
-                <label for="exampleFormControlInput1" class="form-label">Nombre</label>
-                <input name="name" class="form-control" id="exampleFormControlInput1" placeholder="Juan Pérez">
+            </br>
+            </br>
+            <div class="position-relative top-0 start-50 translate-middle">
+                <a href="https://wa.me/message/YMEFEAE2MA5GM1">
+                <button type="button" class="btn btn-success">Whastapp</button>
+                </a>
+                <a href="https://www.facebook.com/ARwax-Inc-332543787399055">
+                <button type="button" class="btn btn-primary">Facebook</button>
+                </a>
+                <a href="https://www.instagram.com/arwax_inc/">
+                <button type="button" class="btn btn-orange">Instagram</button>
+                </a>
             </div>
-            <div class="mb-3">
-                <label for="exampleFormControlInput1" class="form-label">Nombre</label>
-                <input name="phone" class="form-control" id="exampleFormControlInput1" placeholder="12345678">
-            </div>
-            <div class="mb-3">
-                <label for="exampleFormControlInput1" class="form-label">Email</label>
-                <input name="email" type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-            </div>
-            <div class="mb-3">
-                <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
-                <textarea name="message" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-            </div>
-            <div class="col-auto">
-                <button type="submit" class="btn btn-primary mb-3">Enviar</button>
-            </div>
+            <form action="{{route('client.sendMessage')}}" method="POST">
+                <div class="row justify-content-evenly">
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+                        <input name="name" class="form-control" id="exampleFormControlInput1" placeholder="Juan Pérez">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+                        <input name="phone" class="form-control" id="exampleFormControlInput1" placeholder="12345678">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Email</label>
+                        <input name="email" type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+                        <textarea name="message" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <div class="col-auto">
+                        <button type="submit" class="btn btn-primary mb-3">Enviar</button>
+                    </div>
+                </div>
+            </form>
         </div>
-    </form>
-  </div>
+    </div>
     </body>
 </html>
