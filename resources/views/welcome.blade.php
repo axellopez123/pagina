@@ -79,12 +79,16 @@
                 </center>
             </div>
             <div class="col-sm col-md col-lg">
-            <img src="{{ asset('public/img/app.jpg') }}" class="img-fluid" width="140" height="140"alt="...">
-            <p class="fw-bolder text-center">Apps</p>
+                <center>
+                <img src="{{ asset('public/img/app.jpg') }}" class="img-fluid" width="140" height="140"alt="...">
+                <p class="fw-bolder text-center">Apps</p>
+                </center>
             </div>
             <div class="col-sm col-md col-lg">
-            <img src="{{ asset('public/img/estadistica.jpg') }}" class="img-fluid" width="140" height="140"alt="...">
-            <p class="fw-bolder text-center d-inline-flex p-2 bd-highlight">Estadística Empresarial</p>
+                <center>
+                <img src="{{ asset('public/img/estadistica.jpg') }}" class="img-fluid" width="140" height="140"alt="...">
+                <p class="fw-bolder text-center d-inline-flex p-2 bd-highlight">Estadística Empresarial</p>
+                </center>
             </div>
         </div>
     </div>
@@ -139,6 +143,7 @@
      
             </br>
             </br>
+            <center>
             <div class="position-relative top-0 start-50 translate-middle">
                 <a href="https://wa.me/message/YMEFEAE2MA5GM1">
                 <button type="button" class="btn btn-success">Whastapp</button>
@@ -150,6 +155,7 @@
                 <button type="button" class="btn btn-orange">Instagram</button>
                 </a>
             </div>
+            
             <form action="{{route('client.sendMessage')}}" method="POST">
                 <div class="row justify-content-evenly">
                     <div class="mb-3">
@@ -173,6 +179,7 @@
                     </div>
                 </div>
             </form>
+            </center>
         </div>
     </div>
     </body>
