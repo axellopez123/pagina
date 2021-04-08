@@ -144,7 +144,8 @@
             </br>
             </br>
             <center>
-            <div class="position-relative top-0 start-50 translate-middle">
+            <!-- <div class="position-relative top-0 start-50 translate-middle">-->
+            <div>    
                 <a href="https://wa.me/message/YMEFEAE2MA5GM1">
                 <button type="button" class="btn btn-success">Whastapp</button>
                 </a>
