@@ -72,16 +72,16 @@
     <div class="container">
         <div class="row align-items-center">
         <div><p class="fw-bolder text-center">SERVICIOS</p></div>
-            <div class="col">
+            <div class="col-sm col-md col-lg">
             
             <img src="{{ asset('public/img/web.jpg') }}" class="img-fluid" width="140" height="140" alt="...">
             <p class="fw-bolder text-center">Paginas Web</p>
             </div>
-            <div class="col">
+            <div class="col-sm col-md col-lg">
             <img src="{{ asset('public/img/app.jpg') }}" class="img-fluid" width="140" height="140"alt="...">
             <p class="fw-bolder text-center">Apps</p>
             </div>
-            <div class="col">
+            <div class="col-sm col-md col-lg">
             <img src="{{ asset('public/img/estadistica.jpg') }}" class="img-fluid" width="140" height="140"alt="...">
             <p class="fw-bolder text-center d-inline-flex p-2 bd-highlight">Estadística Empresarial</p>
             </div>
@@ -104,7 +104,7 @@
     <div class="row align-items-center">
             <div><p class="fw-bolder text-center">COLABORADORES</p></div>
             
-            <div class="col">
+            <div class="col-sm col-md col-lg">
                 <div>
                     <p class="fw-bolder text-center">Eduardo Gonzalez</p>
                     <p class="fw-bolder text-center">Full-Stack</p>
@@ -112,7 +112,7 @@
                 <img src="{{ asset('public/img/tocayo.PNG') }}" class="img-fluid rounded-circle colla" alt="...">
             </div>
             </br>
-            <div class="col">
+            <div class="col-sm col-md col-lg">
                 <div>
                     <p class="fw-bolder text-center">Axel López</p>
                     <p class="fw-bolder text-center">Back-End</p>
@@ -120,7 +120,7 @@
                 <img src="{{ asset('public/img/axel.jpg') }}" class="img-fluid rounded-circle colla" alt="...">
             </div>
             </br>
-            <div class="col">
+            <div class="col-sm col-md col-lg">
                 <div>
                     <p class="fw-bolder text-center">Omar Carrillo</p>
                     <p class="fw-bolder text-center">Front-End</p>
