@@ -43,6 +43,7 @@
 
     </head>
     <body class="antialiased">
+    <center>
     <div class="container">
     <div class="row align-items-start">
         <div class="row align-items-center">
@@ -69,6 +70,7 @@
             </div>
         </div>
     </div>
+    </center>
     <div class="container">
         <div class="row align-items-center">
         <div><p class="fw-bolder text-center">SERVICIOS</p></div>
