@@ -73,23 +73,26 @@
     </center>
     <div class="container">
         <div class="row align-items-center">
-        <div><p class="fw-bolder text-center">PAQUETES</p></div>
+        <div><p class="fw-bolder text-center">BENEFICIOS</p></div>
             <div class="col-sm col-md col-lg">
                 <center>
-                <img src="{{ asset('public/img/web.jpg') }}" class="img-fluid" width="140" height="140" alt="...">
-                <p class="fw-bolder text-center">Depa o Duplex</p>
+                <img src="{{ asset('public/img/efectividad.png') }}" class="img-fluid" width="140" height="140" alt="...">
+                <p class="fw-bolder text-center">Piretrinas Naturales</p>
+                <p class="fw-bolder text-center">No toxicas y efecto 10 veces mas potencial que otros insecticidas</p>
                 </center>
             </div>
             <div class="col-sm col-md col-lg">
                 <center>
-                <img src="{{ asset('public/img/app.jpg') }}" class="img-fluid" width="140" height="140"alt="...">
-                <p class="fw-bolder text-center">Casas</p>
+                <img src="{{ asset('public/img/tiempo.png') }}" class="img-fluid" width="140" height="140"alt="...">
+                <p class="fw-bolder text-center">Duracion</p>
+                <p class="fw-bolder text-center">Semanas de efecto despues de la aplicación</p>
                 </center>
             </div>
             <div class="col-sm col-md col-lg">
                 <center>
-                <img src="{{ asset('public/img/estadistica.jpg') }}" class="img-fluid" width="140" height="140"alt="...">
-                <p class="fw-bolder text-center d-inline-flex p-2 bd-highlight">Restaurantes y Hoteles</p>
+                <img src="{{ asset('public/img/plaga.png') }}" class="img-fluid" width="140" height="140"alt="...">
+                <p class="fw-bolder text-center">Eliminacion Total</p>
+                <p class="fw-bolder text-center">Exterminamos cualquier plaga o virus</p>
                 </center>
             </div>
         </div>
