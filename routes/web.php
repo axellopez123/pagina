@@ -19,7 +19,7 @@ Route::get('/', function () {
 
 Route::get('/fumigaciones', function () {
     return view('fumigaciones');
-});
+})->name('client.msgFumigaciones');
 
 Route::view('/contact', 'contact', ['name' => 'Taylor']);
 // Route::get('/send-email', function(){
