@@ -95,7 +95,7 @@
     </div>
     <div class="row align-items-center">
     <div><p class="fw-bolder text-center">PROYECTOS</p></div>
-        
+        <center>
         <div class="col-sm col-md col-lg">
         <a href="{{route('client.msgFumigaciones')}}" method="GET">
                 <div>
@@ -103,9 +103,9 @@
                     <p class="fw-bolder text-center">Fumigación y Sanitización</p>
                     <p class="fw-bolder text-center">Sitio web</p>
                 </div>
-        </a>
-                
-        </div> 
+        </a>    
+        </div>
+        </center>
     </div>
     <div class="container">
     <div class="row align-items-center">
