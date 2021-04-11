@@ -239,6 +239,9 @@
                         <p class="fw-bolder text-center text-light" style="font-size: 1em;">Instagram</p>
                         </button>
                     </a>
+                    <a href="https://www.instagram.com/arwax_inc/">
+                        <p class="fw-bolder text-center text-light" style="font-size: 1em;">www.arwax.net</p>
+                    </a>
             </div>
             <img src="{{asset('public/img/logo.png')}}" alt="" width="40" height="40" class="d-inline-block align-text-top">
             </center>
