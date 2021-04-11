@@ -17,7 +17,9 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-
+Route::get('/fumigaciones', function () {
+    return view('fumigaciones');
+});
 
 Route::view('/contact', 'contact', ['name' => 'Taylor']);
 // Route::get('/send-email', function(){
