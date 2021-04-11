@@ -94,11 +94,14 @@
             </div>
         </div>
     </div>
-    <!-- <div class="row align-items-center">
+    <div class="row align-items-center">
     <div><p class="fw-bolder text-center">PROYECTOS</p></div>
 
         <div class="col">
+        <a href="{{route('client.sendMessage')}}">
         Proyecto 1
+        </a>
+        
         </div>
         <div class="col">
         Proyecto 2
@@ -106,7 +109,7 @@
         <div class="col">
         Proyecto 3
         </div>
-    </div> -->
+    </div>
     <div class="container">
     <div class="row align-items-center">
             <div><p class="fw-bolder text-center">COLABORADORES</p></div>
