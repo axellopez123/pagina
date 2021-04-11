@@ -220,8 +220,8 @@
     <footer>
     <div class="container">
         <div class="row align-items-start bg-dark bg-gradient">
-            <p class="fw-bolder text-center" style="font-size: 2em;">Sitio web desarrollado por Arwax</p>
-            <p class="fw-bolder text-center" style="font-size: 2em;">Páginas y aplicaciones económicas</p>
+            <p class="fw-bolder text-center text-light" style="font-size: 2em;">Sitio web desarrollado por Arwax</p>
+            <p class="fw-bolder text-center text-light" style="font-size: 2em;">Páginas y aplicaciones económicas</p>
             <center>
             <div>
                     <a href="https://wa.me/message/YMEFEAE2MA5GM1">
