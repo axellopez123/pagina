@@ -53,7 +53,7 @@
                     <img src="{{ asset('public/img/interiores.png') }}" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item" data-bs-interval="6000">
-                    <img src="{{ asset('public/img/exteriores.png') }}" class="d-block w-100" alt="...">
+                    <img src="{{ asset('public/img/Exteriores.png') }}" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item" data-bs-interval="6000">
                     <img src="{{ asset('public/img/eliminacion.png') }}" class="d-block w-100" alt="...">
