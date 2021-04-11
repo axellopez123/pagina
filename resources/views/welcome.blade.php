@@ -143,18 +143,26 @@
             <center>
             <!-- <div class="position-relative top-0 start-50 translate-middle">-->
             <div>    
-                <a href="https://wa.me/message/YMEFEAE2MA5GM1">
-                    <button type="button" class="btn btn-success">            
-                    <img src="{{ asset('public/img/what.png') }}" class="img-fluid rounded-circle colla" width="40" height="40"alt="...">
-                    <p class="fw-bolder text-center" style="font-size: 2em;">Whastapp</p>
-                    </button>
-                </a>
-                <a href="https://www.facebook.com/ARwax-Inc-332543787399055">
-                <button type="button" class="btn btn-primary">Facebook</button>
-                </a>
-                <a href="https://www.instagram.com/arwax_inc/">
-                <button type="button" class="btn btn-orange">Instagram</button>
-                </a>
+                <div class="row">>
+                    <a href="https://wa.me/message/YMEFEAE2MA5GM1">
+                        <button type="button" class="btn btn-success">            
+                        <img src="{{ asset('public/img/what.png') }}" class="img-fluid rounded-circle colla" width="40" height="40"alt="...">
+                        <p class="fw-bolder text-center" style="font-size: 2em;">Whastapp</p>
+                        </button>
+                    </a>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <a href="https://www.facebook.com/ARwax-Inc-332543787399055">
+                        <button type="button" class="btn btn-primary">Facebook</button>
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a href="https://www.instagram.com/arwax_inc/">
+                        <button type="button" class="btn btn-orange">Instagram</button>
+                        </a>
+                    </div>
+                </div>
             </div>
             
             <form action="{{route('client.sendMessage')}}" method="POST">
