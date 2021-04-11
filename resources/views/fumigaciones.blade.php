@@ -99,19 +99,19 @@
         <div><p class="fw-bolder text-center">PAQUETES</p></div>
             <div class="col-sm col-md col-lg">
                 <center>
-                <img src="{{ asset('public/img/web.jpg') }}" class="img-fluid" width="140" height="140" alt="...">
+                <img src="{{ asset('public/img/aparment.png') }}" class="img-fluid" width="140" height="140" alt="...">
                 <p class="fw-bolder text-center">Depa o Duplex</p>
                 </center>
             </div>
             <div class="col-sm col-md col-lg">
                 <center>
-                <img src="{{ asset('public/img/app.jpg') }}" class="img-fluid" width="140" height="140"alt="...">
+                <img src="{{ asset('public/img/house.png') }}" class="img-fluid" width="140" height="140"alt="...">
                 <p class="fw-bolder text-center">Casas</p>
                 </center>
             </div>
             <div class="col-sm col-md col-lg">
                 <center>
-                <img src="{{ asset('public/img/estadistica.jpg') }}" class="img-fluid" width="140" height="140"alt="...">
+                <img src="{{ asset('public/img/randh.png') }}" class="img-fluid" width="140" height="140"alt="...">
                 <p class="fw-bolder text-center d-inline-flex p-2 bd-highlight">Restaurantes y Hoteles</p>
                 </center>
             </div>
