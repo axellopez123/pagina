@@ -34,7 +34,7 @@
         <nav class="navbar navbar-light bg-light">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
-                    <!-- <img src="{{asset('public/img/logo.png')}}" alt="" width="40" height="40" class="d-inline-block align-text-top"> -->
+                    <img src="{{asset('public/img/logo.png')}}" alt="" width="40" height="40" class="d-inline-block align-text-top">
                     Fumigación y Sanitización
                 </a>
             </div>
@@ -240,6 +240,7 @@
                         </button>
                     </a>
             </div>
+            <img src="{{asset('public/img/logo.png')}}" alt="" width="40" height="40" class="d-inline-block align-text-top">
             </center>
         </div>
     </div>
