@@ -90,7 +90,7 @@
             </div>
             <div class="col-sm col-md col-lg">
                 <center>
-                <img src="{{ asset('public/img/plaga.png') }}" class="img-fluid rounded-circle" width="140" height="140"alt="...">
+                <img src="{{ asset('public/img/plaga.png') }}" class="img-fluid" width="140" height="140"alt="...">
                 <p class="fw-bolder text-center">Eliminacion Total</p>
                 <p class="fw-bolder text-center">Exterminamos cualquier plaga o virus</p>
                 </center>
