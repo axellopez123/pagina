@@ -178,8 +178,8 @@
             <div>    
                 <a href="https://wa.me/message/YMEFEAE2MA5GM1">
                     <button type="button" class="btn btn-success">            
-                    <img src="{{ asset('public/img/what.png') }}" class="img-fluid rounded-circle colla" width="70" height="70"alt="...">
-                    Whastapp
+                    <img src="{{ asset('public/img/what.png') }}" class="img-fluid rounded-circle colla" width="40" height="40"alt="...">
+                    <p class="fw-bolder text-center" style="font-size: 2em;">Whastapp</p>
                     </button>
                 </a>
                 <!-- <a href="https://www.facebook.com/ARwax-Inc-332543787399055">
