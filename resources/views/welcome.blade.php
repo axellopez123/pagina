@@ -189,16 +189,11 @@
             </center>
         </div>
     </div>
-    <div class="container">
-        <div class="row align-items-end bg-secondary">
-semi-footer
-        </div>
-    </div>
     </body>
     <footer>
     <div class="container">
-        <div class="row align-items-start bg-secondary">
-                Footer
+        <div class="row align-items-start bg-secondary bg-gradient">
+                
         </div>
     </div>
     </footer>
