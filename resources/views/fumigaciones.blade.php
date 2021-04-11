@@ -178,7 +178,7 @@
             <div>    
                 <a href="https://wa.me/message/YMEFEAE2MA5GM1">
                     <button type="button" class="btn btn-success">            
-                    <img src="{{ asset('public/img/whats.png') }}" class="img-fluid rounded-circle colla" width="70" height="70"alt="...">
+                    <img src="{{ asset('public/img/what.png') }}" class="img-fluid rounded-circle colla" width="70" height="70"alt="...">
                     Whastapp
                     </button>
                 </a>
