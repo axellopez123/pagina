@@ -141,7 +141,7 @@
             <center>
             <!-- <div class="position-relative top-0 start-50 translate-middle">-->
             <div>    
-                <div class="row">>>
+                <div class="row">
                     <a href="https://wa.me/message/YMEFEAE2MA5GM1">
                         <button type="button" class="btn btn-success">            
                         <img src="{{ asset('public/img/what.png') }}" class="img-fluid rounded-circle colla" width="40" height="40"alt="...">
