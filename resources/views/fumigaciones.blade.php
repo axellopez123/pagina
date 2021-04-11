@@ -217,7 +217,7 @@
         </div>
     </div>
     <div class="container">
-        <div class="row align-items-end secondary">
+        <div class="row align-items-end bg-secondary">
 
         </div>
     </div>
