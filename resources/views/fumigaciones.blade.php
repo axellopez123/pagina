@@ -222,26 +222,22 @@
         <div class="row align-items-start bg-secondary bg-gradient">
             <p class="fw-bolder text-center">Sitio web desarrollado por Arwax</p>
             <p class="fw-bolder text-center">Páginas y apliaciones económicas</p>
-            <div>    
-                <div class="row">
+            <div>
                     <a href="https://wa.me/message/YMEFEAE2MA5GM1">
-                        <button type="button" class="btn btn-success">            
-                            <p class="fw-bolder text-center" style="font-size: 2em;">Whastapp</p>
+                    <button type="button" class="btn btn-success">            
+                        <p class="fw-bolder text-center" style="font-size: 2em;">Whastapp</p>
+                    </button>
+                    </a>
+                    <a href="https://www.facebook.com/ARwax-Inc-332543787399055">
+                        <button type="button" class="btn btn-primary">
+                        <p class="fw-bolder text-center" style="font-size: 2em;">Facebook</p>
                         </button>
                     </a>
-                </div>
-                <div class="row">
-                    <div class="col">
-                        <a href="https://www.facebook.com/ARwax-Inc-332543787399055">
-                            <button type="button" class="btn btn-primary">Facebook</button>
-                        </a>
-                    </div>
-                    <div class="col">
-                        <a href="https://www.instagram.com/arwax_inc/">
-                            <button type="button" class="btn btn-orange">Instagram</button>
-                        </a>
-                    </div>
-                </div>
+                    <a href="https://www.instagram.com/arwax_inc/">
+                        <button type="button" class="btn btn-orange">
+                        <p class="fw-bolder text-center" style="font-size: 2em;">Instagram</p>
+                        </button>
+                    </a>
             </div>
         </div>
     </div>
