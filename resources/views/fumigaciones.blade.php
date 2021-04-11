@@ -219,24 +219,24 @@
     </body>
     <footer>
     <div class="container">
-        <div class="row align-items-start bg-secondary bg-gradient">
+        <div class="row align-items-start bg-dark bg-gradient">
             <p class="fw-bolder text-center" style="font-size: 2em;">Sitio web desarrollado por Arwax</p>
             <p class="fw-bolder text-center" style="font-size: 2em;">Páginas y aplicaciones económicas</p>
             <center>
             <div>
                     <a href="https://wa.me/message/YMEFEAE2MA5GM1">
                     <button type="button" class="btn btn-success">            
-                        <p class="fw-bolder text-center" style="font-size: 1em;">Whastapp</p>
+                        <p class="fw-bolder text-center text-white" style="font-size: 1em;">Whastapp</p>
                     </button>
                     </a>
                     <a href="https://www.facebook.com/ARwax-Inc-332543787399055">
                         <button type="button" class="btn btn-primary">
-                        <p class="fw-bolder text-center" style="font-size: 1em;">Facebook</p>
+                        <p class="fw-bolder text-center text-white" style="font-size: 1em;">Facebook</p>
                         </button>
                     </a>
                     <a href="https://www.instagram.com/arwax_inc/">
                         <button type="button" class="btn btn-orange">
-                        <p class="fw-bolder text-center" style="font-size: 1em;">Instagram</p>
+                        <p class="fw-bolder text-center text-white" style="font-size: 1em;">Instagram</p>
                         </button>
                     </a>
             </div>
