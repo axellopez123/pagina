@@ -100,6 +100,16 @@
             Proyecto 1
             </a>
         </div>
+        <div class="col-sm col-md col-lg">
+        <a href="{{route('client.msgFumigaciones')}}" method="GET">
+                <div>
+                    <img src="{{ asset('public/img/eliminacion.png') }}" class="img-fluid rounded-circle colla" alt="...">
+                    <p class="fw-bolder text-center">Fumigación y Sanitización</p>
+                    <p class="fw-bolder text-center">Sitio web</p>
+                </div>
+        </a>
+                
+        </div> 
     </div>
     <div class="container">
     <div class="row align-items-center">
