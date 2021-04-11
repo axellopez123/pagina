@@ -17,7 +17,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/fumigaciones', function () {
+Route::get('fumigaciones', function () {
     return view('fumigaciones');
 });
 
