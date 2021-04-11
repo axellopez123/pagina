@@ -136,8 +136,7 @@
      <p class="fw-bolder text-center">CONTACTO</p>
      </div>
     <div class="container">
-        <div class="row align-items-end">
-     
+    <div class="row align-items-center">
             </br>
             </br>
             <center>
@@ -189,6 +188,11 @@
                 </div>
             </form>
             </center>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row align-items-end secondary">
+
         </div>
     </div>
     </body>

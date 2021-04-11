@@ -169,7 +169,7 @@
      <p class="fw-bolder text-center">3324398516</p>
      </div>
     <div class="container">
-        <div class="row align-items-end">
+    <div class="row align-items-center">
      
             </br>
             </br>
@@ -214,6 +214,11 @@
                 </div>
             </form>
             </center>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row align-items-end secondary">
+
         </div>
     </div>
     </body>
