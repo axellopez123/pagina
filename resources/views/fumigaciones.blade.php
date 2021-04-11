@@ -222,6 +222,7 @@
         <div class="row align-items-start bg-secondary bg-gradient">
             <p class="fw-bolder text-center">Sitio web desarrollado por Arwax</p>
             <p class="fw-bolder text-center">Páginas y apliaciones económicas</p>
+            <center>
             <div>
                     <a href="https://wa.me/message/YMEFEAE2MA5GM1">
                     <button type="button" class="btn btn-success">            
@@ -239,6 +240,7 @@
                         </button>
                     </a>
             </div>
+            </center>
         </div>
     </div>
     </footer>
