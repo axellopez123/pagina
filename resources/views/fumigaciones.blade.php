@@ -133,7 +133,7 @@
         Proyecto 3
         </div>
     </div> -->
-    <div class="container">
+    <!-- <div class="container">
     <div class="row align-items-center">
             <div><p class="fw-bolder text-center">COLABORADORES</p></div>
             
@@ -163,9 +163,10 @@
     </div> 
     </div>
     </br>
-    </br>
+    </br> -->
     <div>
-     <p class="fw-bolder text-center">CONTACTO</p>
+     <p class="fw-bolder text-center">COTIZA UN SERVICIO</p>
+     <p class="fw-bolder text-center">3324398516</p>
      </div>
     <div class="container">
         <div class="row align-items-end">
@@ -176,14 +177,17 @@
             <!-- <div class="position-relative top-0 start-50 translate-middle">-->
             <div>    
                 <a href="https://wa.me/message/YMEFEAE2MA5GM1">
-                <button type="button" class="btn btn-success">Whastapp</button>
+                    <button type="button" class="btn btn-success">            
+                    <img src="{{ asset('public/img/whats.png') }}" class="img-fluid rounded-circle colla" alt="...">
+                    Whastapp
+                    </button>
                 </a>
-                <a href="https://www.facebook.com/ARwax-Inc-332543787399055">
+                <!-- <a href="https://www.facebook.com/ARwax-Inc-332543787399055">
                 <button type="button" class="btn btn-primary">Facebook</button>
                 </a>
                 <a href="https://www.instagram.com/arwax_inc/">
                 <button type="button" class="btn btn-orange">Instagram</button>
-                </a>
+                </a> -->
             </div>
             
             <form action="{{route('client.sendMessage')}}" method="POST">
@@ -193,7 +197,7 @@
                         <input name="name" class="form-control" id="exampleFormControlInput1" placeholder="Juan Pérez">
                     </div>
                     <div class="mb-3">
-                        <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+                        <label for="exampleFormControlInput1" class="form-label">Teléfono</label>
                         <input name="phone" class="form-control" id="exampleFormControlInput1" placeholder="12345678">
                     </div>
                     <div class="mb-3">
@@ -202,7 +206,7 @@
                     </div>
                     <div class="mb-3">
                         <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
-                        <textarea name="message" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        <textarea name="message" class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Tipo de paquete, # de habitaciones, servicio, etc."></textarea>
                     </div>
                     <div class="col-auto">
                         <button type="submit" class="btn btn-primary mb-3">Enviar</button>

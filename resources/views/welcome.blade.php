@@ -161,7 +161,7 @@
                         <input name="name" class="form-control" id="exampleFormControlInput1" placeholder="Juan Pérez">
                     </div>
                     <div class="mb-3">
-                        <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+                        <label for="exampleFormControlInput1" class="form-label">Teléfono</label>
                         <input name="phone" class="form-control" id="exampleFormControlInput1" placeholder="12345678">
                     </div>
                     <div class="mb-3">
