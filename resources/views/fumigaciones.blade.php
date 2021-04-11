@@ -240,7 +240,7 @@
                         </button>
                     </a>
                     <a href="https://www.arwax.net">
-                        <p class="fw-bolder text-center text-light" style="font-size: 1em;">www.arwax.net</p>
+                        <p class="fw-bolder text-center text-light" style="font-size: 1em;">www.ARwax.net</p>
                     </a>
             </div>
             <img src="{{asset('public/img/logo.png')}}" alt="" width="40" height="40" class="d-inline-block align-text-top">
