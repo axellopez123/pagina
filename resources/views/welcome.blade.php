@@ -113,7 +113,7 @@
             
             <div class="col-sm col-md col-lg">
                 <div>
-                    <p class="fw-bolder text-center">Eduardo Gonzalez</p>
+                    <p class="fw-bolder text-center">Eduardo Perez</p>
                     <p class="fw-bolder text-center">Full-Stack</p>
                 </div>
                 <img src="{{ asset('public/img/tocayo.PNG') }}" class="img-fluid rounded-circle colla" alt="...">
