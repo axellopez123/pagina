@@ -49,14 +49,14 @@
         <div class="row align-items-center">
             <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false" data-bs-interval="false">
                 <div class="carousel-inner">
-                    <div class="carousel-item active">
-                    <img src="{{ asset('public/img/1.jpg') }}" class="d-block w-100" alt="...">
+                    <div class="carousel-item active" data-bs-interval="6000">
+                    <img src="{{ asset('public/img/interiores.png') }}" class="d-block w-100" alt="...">
                     </div>
-                    <div class="carousel-item">
-                    <img src="{{ asset('public/img/2.jpg') }}" class="d-block w-100" alt="...">
+                    <div class="carousel-item" data-bs-interval="6000">
+                    <img src="{{ asset('public/img/exteriores.png') }}" class="d-block w-100" alt="...">
                     </div>
-                    <div class="carousel-item">
-                    <img src="{{ asset('public/img/3.jpg') }}" class="d-block w-100" alt="...">
+                    <div class="carousel-item" data-bs-interval="6000">
+                    <img src="{{ asset('public/img/eliminacion.png') }}" class="d-block w-100" alt="...">
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
